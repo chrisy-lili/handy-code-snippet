@@ -8,3 +8,8 @@
   margin: -1px;
   padding: 0;
 }
+
+// hide blue outline for programmatically added focus areas
+[tabindex="-1"] {
+  outline: 0;
+}
